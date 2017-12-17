@@ -1,3 +1,3 @@
-class Profile < Active Record::Base
+class Profile < ActiveRecord::Base
   belongs_to :user
 end
